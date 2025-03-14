@@ -1,6 +1,7 @@
 export interface Location {
     id: number;
-    location: string;
+    name: string;
     temperature: string;
-    rainfall: string;
+    rain: string;
+    status: string;
 }

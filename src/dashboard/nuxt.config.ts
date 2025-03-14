@@ -9,4 +9,7 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     pages: true,
     modules: ['@nuxt/ui'],
+    devServer: {
+        port: 8000
+    }
 });

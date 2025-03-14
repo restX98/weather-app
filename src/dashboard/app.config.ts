@@ -9,6 +9,9 @@ export default defineAppConfig({
             },
             tr: {
                 base: 'bg-[#1b1b1d]'
+            },
+            td: {
+                base: 'first:font-bold first:text-[#d4e8f8]'
             }
         }
     },
