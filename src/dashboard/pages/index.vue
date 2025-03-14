@@ -1,9 +1,17 @@
 <script setup lang="ts">
+import Header from '@/components/Header.vue';
+import LocationTable from '@/components/LocationTable.vue';
 
+definePageMeta({
+    colorMode: 'light',
+});
 </script>
 
+
 <template>
-    <div class="w-screen h-screen flex items-center justify-center">
-        <h1 class="text-6xl">Good luck! 👋</h1>
+    <div class="min-h-screen bg-zinc-900 py-4 px-20">
+        <Header />
+
+        <LocationTable />
     </div>
 </template>
